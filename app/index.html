@@ -22,7 +22,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <navbar></navbar>
+    <!-- <navbar></navbar> -->
 
     <div class="container" ng-view=""></div>
 
@@ -50,6 +50,8 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/pusher/dist/pusher.js"></script>
+    <script src="bower_components/pusher-angular/lib/pusher-angular.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -60,17 +62,11 @@
     <script src="scripts/common/services/track.events.js"></script>
     <script src="scripts/common/services/preloader.service.js"></script>
     <script src="scripts/common/services/preloader.js"></script>
-    <script src="scripts/navigation/navigation.module.js"></script>
-    <script src="scripts/navigation/navigation.directive.js"></script>
-    <script src="scripts/navigation/navigation.controller.js"></script>
+    <script src="scripts/pusher/pusher.module.js"></script>
+    <script src="scripts/pusher/pusher.directive.js"></script>
     <script src="scripts/core/core.module.js"></script>
     <script src="scripts/core/config.js"></script>
     <script src="scripts/core/app.controller.js"></script>
-    <script src="scripts/admin/admin.module.js"></script>
-    <script src="scripts/admin/logout.controller.js"></script>
-    <script src="scripts/admin/login.controller.js"></script>
-    <script src="scripts/admin/auth.service.js"></script>
-    <script src="scripts/admin/admin.controller.js"></script>
     <script src="scripts/app.module.js"></script>
     <!-- endinject -->
     <!-- If you don't want to cahce angular templates remove below inject block -->
