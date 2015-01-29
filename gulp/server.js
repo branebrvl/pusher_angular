@@ -50,6 +50,10 @@ gulp.task('serve:release', ['release'], function () {
   browserSyncInit('dist');
 });
 
+gulp.task('serve:released', function () {
+  browserSyncInit('dist');
+});
+
 gulp.task('serve:release:debug', ['release:debug'], function () {
   browserSyncInit('dist');
 });
